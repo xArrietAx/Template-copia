@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: user/repo
+
+app_title: Administración de contenido
+
+media_folder: /src/assets/images
+public_folder: /src/assets/images
+
+collections:
+  - name: "pages"
+    label: "Páginas"
+    files:
+      - name: "home"
+        label: "Página de Inicio"
+        file: "src/config/content/home.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Título"
+                name: "title"
+                widget: "string"
+
+              - label: "Descripción"
+                name: "desc"
+                widget: "text"
+
+              - label: "Imagen"
+                name: "image"
+                widget: "image"
+
+      - name: "services"
+        label: "Página de servicios"
+        file: "src/config/content/services.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Título"
+                name: "title"
+                widget: "string"
+
+              - label: "Descripción"
+                name: "desc"
+                widget: "text"
+                
+              - label: "Imagen"
+                name: "image"
+                widget: "image"

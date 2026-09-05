@@ -1,0 +1,18 @@
+@theme inline {
+
+    /* FONTS */
+
+  --font-display: var(--font-);
+  --font-body: var(--font-);
+
+    /* COLORS */
+
+  --color-background: ;
+  --color-foreground: ;
+
+  --color-primary: ;
+  --color-primary-foreground: ;
+
+  --color-muted: ;
+  
+}

@@ -1,0 +1,53 @@
+{
+  "name": "",
+  "tagline": "",
+  "lang": "", 
+
+
+  "url": "", 
+  "logo": "",
+
+
+  "email": "",
+  "phone": "",
+  "whatsapp": "",
+
+
+  "address": {
+    "streetAddress": "",
+    "addressLocality": "",
+    "addressRegion": "",
+    "postalCode": "",
+    "addressCountry": ""
+  },
+
+
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "googleMaps": ""
+  },
+
+  
+  "seo": {
+    "defaultTitle": "",
+    "titleTemplate": "", 
+    "defaultDescription": "",
+    "ogImage": "",
+    "twitterHandle": "",
+    "locale": ""
+  },
+
+
+  "business": {
+    "type": "",
+    "priceRange": "", 
+    "openingHours": [],
+    "geo": {
+      "latitude": "",  
+      "longitude": ""
+    },
+    "areaServed": ""
+  }
+}

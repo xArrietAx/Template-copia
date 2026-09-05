@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+  src?: string | null;
+  alt: string;
+  [key: string]: any;
+}
+
+const { src, alt, ...rest } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/images/**/*.{jpeg,jpg,png,gif,webp,svg}",
+  { eager: true }
+);
+
+const localImage = src ? images[src]?.default : null;
+---
+
+{localImage ? (
+  <Image src={localImage} alt={alt} {...rest} />
+) : src ? (
+  <img src={src} alt={alt} loading="lazy" {...rest} />
+) : null}
