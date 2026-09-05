@@ -2,7 +2,9 @@
 
 backend:
   name: github
-  repo: user/repo
+  repo: xArrietAx/Template-copia
+  base_url: https://sveltia-cms-auth.otraxotrax.workers.dev
+  auth_endpoint: auth
 
 app_title: Administración de contenido
 
